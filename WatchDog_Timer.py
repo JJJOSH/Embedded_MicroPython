@@ -16,7 +16,7 @@ def timer_thread(timer):
     if sema == 0:
         green_led.value(not green_led.value())
         
-        print("System in normal operation...")
+        print("Device is in normal operation mode...")
         
         #Feed the watchdog timer to prevent it from resetting the system
         wdt.feed()

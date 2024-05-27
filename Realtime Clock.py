@@ -16,8 +16,8 @@ def main():
     
     rtc =  RTC()
     #(year,month,day,weekday,hour,minute,seconds,subseconds)
-    #Set date and time to Saturday 20 August 2022, 15:25: 10: 000
-    rtc.datetime((2022,8,20,6,15,35,10,0))
+    #Set date and time to 20 Feb 2024, 15:25: 10: 000
+    rtc.datetime((2024,2,20,6,15,35,10,0))
     
     pyb.ExtInt('PC13',mode =pyb.ExtInt.IRQ_RISING, pull =pyb.Pin.PULL_NONE, callback = pc13_callback)
     

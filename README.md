@@ -5,3 +5,4 @@ SPI,
 UART,
 Watchdog Timers,
 Realtime clock,
+and external button interrupts
